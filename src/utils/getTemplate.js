@@ -183,7 +183,7 @@ main {
 <body>
 	
 	<header>
-    <nav class="navbar"><span>Welcome ${lastName}</span><a href="http://localhost:5100/api/v1/logout">Logout</a></nav>
+    <nav class="navbar"><span>Welcome ${lastName}</span><a href="https://task-management-system-33mi.onrender.com/api/v1/logout">Logout</a></nav>
 		<h1>Task List 2024</h1>
 		<form id="new-task-form">
 			<input 
@@ -221,7 +221,7 @@ main {
 		</section>
 	</main>
 
-	<script src="http://localhost:5100/js/start.js"></script>
+	<script src="https://task-management-system-33mi.onrender.com/js/start.js"></script>
 </body>
 
 </html>`;
