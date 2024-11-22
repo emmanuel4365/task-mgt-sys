@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form action="http://localhost:5100/api/v1/login" method="post">
+        <label for="email">
+            Email
+            <input type="email" name="email" id="email" required>
+        </label>
+        <label for="passWord">
+            Password
+            <input type="password" name="password" id="password" required>
+        </label>
+        <button type="submit" class="loginBtn">Login</button>
+        <div>
+            Not yet a member?
+            <a href="html/register.html"><span class="login-reg-text">Register</span></a>
+        </div>
+    </form>
+    <script src="js/start.js"></script>
+</body>
+
+</html>
